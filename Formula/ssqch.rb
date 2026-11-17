@@ -1,20 +1,20 @@
 class Ssqch < Formula
   desc "The SiteSquatch command-line tool, configured by ssqch.config.js or sitesquatch.toml"
   homepage "https://github.com/reverentgeek/sitesquatch"
-  version "0.6.2"
+  version "0.6.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/reverentgeek/sitesquatch/releases/download/v0.6.2/ssqch-aarch64-apple-darwin.tar.gz"
-      sha256 "e26d1e511225645b6e8c9ab1d4a92d8d37b65a7eac9183b1f300e347ce51fe36"
+      url "https://github.com/reverentgeek/sitesquatch/releases/download/v0.6.3/ssqch-aarch64-apple-darwin.tar.gz"
+      sha256 "2cd34d2cbb4067e9d58cf2dd20f1dbeac22e768b1a56fa9b5c0e8399ee47e8c5"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/reverentgeek/sitesquatch/releases/download/v0.6.2/ssqch-x86_64-apple-darwin.tar.gz"
-      sha256 "57a27f77f2efed75a5818b57a806de8f57f8244b2d06c7d5c6aa3c267a50b53e"
+      url "https://github.com/reverentgeek/sitesquatch/releases/download/v0.6.3/ssqch-x86_64-apple-darwin.tar.gz"
+      sha256 "16a151cdb6822ce6e459a80622ff9bc17d137ba024c3b097259ffcd55680da62"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/reverentgeek/sitesquatch/releases/download/v0.6.2/ssqch-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "548dae8de298e88b32aaaada747d9d2bb0ef764d1ffb9adf5edbfbd7cc34cf2b"
+    url "https://github.com/reverentgeek/sitesquatch/releases/download/v0.6.3/ssqch-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "fd745f41f41bfe1fb52c136a965308b25f69eb476b6a1598c14f585ca7542302"
   end
   license "MIT"
 
