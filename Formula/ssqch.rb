@@ -1,9 +1,9 @@
-# Written by reverentgeek/sitesquatch's release workflow (scripts/release-files.mjs) for 0.15.1.
+# Written by reverentgeek/sitesquatch's release workflow (scripts/release-files.mjs) for 0.16.0.
 class Ssqch < Formula
   desc "Fast, pluggable static site generator, configured with JavaScript"
   homepage "https://github.com/reverentgeek/sitesquatch"
-  url "https://registry.npmjs.org/ssqch/-/ssqch-0.15.1.tgz"
-  sha256 "e13c77ef2cf797dc47663d4567090e587fd49839da73496387c803611a76f858"
+  url "https://registry.npmjs.org/ssqch/-/ssqch-0.16.0.tgz"
+  sha256 "9cbb7188fd81c823c5d5d718bfbd72a95597954b858e88b7f514ce42969d73a3"
   license "MIT"
 
   depends_on "node"
